@@ -244,11 +244,8 @@ namespace PluginRainForms
                     else if (method is MethodInfo minfo)
                     {
                         object ret = minfo.Invoke(instance, invokeparams);
-                        if (ret != null)
-                        {
-                            succesfull = true;
-                            return ret;
-                        }
+                        succesfull = true;
+                        return ret;
                     }
                 }
                 catch (Exception e)
