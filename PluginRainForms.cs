@@ -8,14 +8,6 @@ using System.Linq;
 using System.Reflection;
 using Rainmeter;
 
-// Overview: This is a blank canvas on which to build your plugin.
-
-// Note: GetString, ExecuteBang and an unnamed function for use as a section variable
-// have been commented out. If you need GetString, ExecuteBang, and/or section variables 
-// and you have read what they are used for from the SDK docs, uncomment the function(s)
-// and/or add a function name to use for the section variable function(s). 
-// Otherwise leave them commented out (or get rid of them)!
-
 namespace PluginRainForms
 {
     class Measure
